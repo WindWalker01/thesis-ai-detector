@@ -1,0 +1,9 @@
+# AI text detection environment — thesis-ai-detector
+# Install: python -m pip install -r requirements.txt
+#
+# CPU-only PyTorch alternative (smaller download, ~5 min analysis instead of ~1 min):
+#   python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.10
+transformers>=4.40
+python-docx>=1.1
+pypdf>=5.0
